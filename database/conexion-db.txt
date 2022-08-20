@@ -1,0 +1,20 @@
+en este archivo creamos la conexion con la db y la conectamos
+
+requerimos mysql, conectamos y exportamos como un modulo.
+
+const. conexion = mysql.createconnection({
+    host: "",
+    user: "",
+    password: "",
+    database: "nombre de la db",
+})
+
+conexion.connect((error)=>{
+    if(error){
+        console.error('el error de conexion es : '(error));
+        return
+    }
+    console.log('base de datos conectada!');
+})
+
+module.exports = conexion;

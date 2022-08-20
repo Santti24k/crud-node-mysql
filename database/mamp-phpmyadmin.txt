@@ -1,0 +1,6 @@
+abrimos MAMP cliqueamos en "open webstart page"
+
+en el navegador encontraremos informacion de la conexion de la db 
+entramos a "tools" y escojemos "pbpmyadmin"
+
+

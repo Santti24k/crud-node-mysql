@@ -1,0 +1,2 @@
+INSERT INTO `users` (`id`, `user`, `rol`) VALUES ('11', 'admin', 'admin'), ('2', 'test', 'data entry');
+

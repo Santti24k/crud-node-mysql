@@ -1,0 +1,29 @@
+
+&&&&&&&&&&&VERSIONES DE NODE&&&&&&&&&&&&&&&
+https://nodejs.org/en/download/releases/
+
+ejecutar powershel en modo administrador
+
+C:\windows\system32> nvm install 15.0.0
+
+C:\windows\system32> nvm use 15.0.0
+
+en la consola de cmd instalamos: npm install nodemon -g
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+para instalar yarn abrimos una nueva terminal dentro de la carpeta del proyecto
+
+C:\Users\santt\Desktop\crud-node-mysql> npm install yarn -g
+C:\Users\santt\Desktop\crud-node-mysql> yarn init --yes
+C:\Users\santt\Desktop\crud-node-mysql> yarn add express express-handlebars mysql ejs
+C:\Users\santt\Desktop\crud-node-mysql> yarn add nodemon -D
+
+para iniciar debemos crear el scrip de "dev" en package.json debajo de "main"
+
+"main": "app.js",
+"scripts": {
+    "dev": "nodemon app.js"
+  },
+
+y ejecutamos el siguiente comando: yarn run dev
+

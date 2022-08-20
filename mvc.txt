@@ -1,0 +1,14 @@
+creamos la carpeta views con los siguientes carpetas y archivos:
+views
+layouts/home.hbs
+partials/navbar.hbs
+
+creamos la carpeta database con el siguiente archivo:
+db.js
+
+creamos la carpeta controllers con el siguiente archivo:
+crud.js
+
+creamos la carpeta routes con el siguiente archivo:
+router.js
+
